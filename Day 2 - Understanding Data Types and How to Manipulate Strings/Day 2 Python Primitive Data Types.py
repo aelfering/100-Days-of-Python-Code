@@ -15,6 +15,7 @@ print("Hello"[4])
 #   this prints the first character of the string
 #   also known as a subscript
 #   counting in Python starts at 0 bc binaries 
+#   ALSO NOTE THAT SPACES MATTER
 
 
 "123"
