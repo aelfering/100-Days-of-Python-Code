@@ -54,7 +54,7 @@ second_digit = number[1]
 print(type(first_digit))
 
 result = int(first_digit) + int(second_digit)
-
+print(result)
 
 
 
