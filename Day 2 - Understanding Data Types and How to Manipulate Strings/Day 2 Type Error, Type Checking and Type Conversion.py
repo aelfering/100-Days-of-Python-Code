@@ -29,3 +29,58 @@ print(2 + 4)
 
 #   this concatenates
 print("2" + "4")
+
+
+
+
+
+
+#   CODING CHALLENGE    
+#   write a program that adds the digits in a two digit numbers
+#       if the number is 35, then the output should be 3 + 5 = 8
+
+39
+
+#   the output should be 3 + 9 = 12
+
+number = input("Type a two digit number\n")
+print(int(number[0]) + int(number[1]))
+
+#   the video solution was
+
+first_digit = number[0]
+second_digit = number[1]
+
+print(type(first_digit))
+
+result = int(first_digit) + int(second_digit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
