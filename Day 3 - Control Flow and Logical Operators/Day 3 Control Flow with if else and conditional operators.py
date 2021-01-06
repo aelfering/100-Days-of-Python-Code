@@ -29,4 +29,29 @@ else:
 #   <       less than
 #   >=      greater than/equal to
 #   <=      less than/equal to
-#   !=      not equal to    
+#   !=      not equal to
+
+
+#   CODING CHALLENGE
+#   create a script that identifies if a number is odd or even (or prime?)
+
+#   introducing the MODULO operation
+
+remainder_of_division = 7 % 2    
+
+test_number = int(input("What is your number?"))
+
+modulo_ouput = test_number % 2
+
+if modulo_ouput == 0:
+    print("Your number is even")
+else:
+    print("Your number is odd")
+    
+    
+    
+    
+    
+    
+    
+    
