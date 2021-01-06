@@ -37,3 +37,58 @@ print(3 * 3 + 3 / 3 - 3)
 print(3 * (3 + 3) / 3 - 3)
 
 #   add parentheses to the '3 + 3' expression
+
+
+
+
+
+
+
+
+
+
+####    CODING CHALLENGE
+#   write a program that calculates the body mass index (BMI) from a user's height and weight
+
+#   BMI = weight(kg) / height**2(m**2)
+
+height = input("Enter your height in meters:\n")
+weight = input("Enter your weight in kilograms:\n")
+
+heightint = float(height)
+weightint = float(weight)
+
+bmi = weightint/(heightint ** 2)
+
+print(bmi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
