@@ -8,6 +8,6 @@ total_split = int(input("How many people are splitting the bill?\n"))
 
 total_to_pay = (total_bill + (total_bill*(total_tip/100)))/total_split
 
-print(total_to_pay)
+#print(total_to_pay)
 
-#print(f"Each person should pay: ${total_to_pay}")
+print(f"Each person should pay: ${total_to_pay}")
