@@ -5,5 +5,8 @@ heightint = float(height)
 weightint = float(weight)
 
 bmi = weightint/(heightint ** 2)
+bmi_int = int(bmi)
+bmi_round = round(bmi)
 
-print(bmi)
+print(bmi_int)
+print(bmi_round)
